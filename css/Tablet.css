@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+.all {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    float: top;
+}
+.mb_btn{
+    display: none;
+}
+
+.logo {
+    width:80px;
+    height: 80px;
+    background-color: green;
+    margin: 10px;
+    position: absolute;
+    background-image: url('../img/head.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.nav_btn {
+    text-align: right;
+}
+
+.btn {
+    /* 自動換行 */
+    display: inline;
+    font-size: 30px;
+    line-height: 100px;
+    padding: 10px;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: lawngreen;
+    position: relative;
+    padding: 45px 20px 0;
+}
+
+.content {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+
+.img {
+    height: 100%;
+    background-color: lightseagreen;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.mask:hover {
+    opacity: 0;
+    transition: 1s;
+}
+
+/* 上推下，左推右 */
+.imgA {
+    width: 100%;
+    height: calc(50% - 2.5px);
+    margin-bottom: 5px;
+    background-image: url('../img/1_rabbbit.jpg');
+}
+
+.imgB {
+    width: calc(50% - 2.5px);
+    height: calc(50% - 2.5px);
+    margin-right: 5px;
+    background-image: url('../img/2_rabbbit.jpg');
+}
+
+.imgC {
+    width: calc(50% - 2.5px);
+    height: calc(50% - 2.5px);
+    background-image: url('../img/3_rabbbit.jpg');
+}
